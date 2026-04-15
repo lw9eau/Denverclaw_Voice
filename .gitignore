@@ -1,0 +1,24 @@
+# ESPHome and Build Artifacts
+.esphome/
+.pio/
+.pioenvs/
+.piolibdeps/
+*.ipk
+*.bin
+*.elf
+
+# Sensitive Information
+secrets.yaml
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Python (if using scripts)
+__pycache__/
+*.py[cod]
+*$py.class
